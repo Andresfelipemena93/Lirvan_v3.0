@@ -223,6 +223,7 @@ footer{
 	width: 100px;
 	height: auto;
 	margin-bottom: 20px;
+	transform: translate(-10px, 10px);
 }
 .footer-links h3{
 	font-size: 20px;
