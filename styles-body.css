@@ -1,0 +1,179 @@
+/*--- section welcome ---*/
+.welcome {
+    width: 100%;
+    height: 780px;
+    /* background-image: url("/media/home/home2.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@media (min-width:768px){ 
+    .welcome{
+        margin-bottom: 80px;
+    }
+}
+  /*--- section product ---*/
+.product-mac,
+.product-iphone,
+.product-watch,
+.product-ipad {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    cursor: pointer;
+}
+.product-mac h2,
+.product-iphone h2,
+.product-watch h2,
+.product-ipad h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    
+}
+.container {
+    width: 1070px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.grid-product {
+    background: #00f50c00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    border-radius: 8%;
+}
+/* --- colors hove cards home ---- 
+.grid-product:hover {
+    background: var(--azul-corporativo);
+}*/
+.grid-product img {
+
+    width: 300px;
+}
+.grid-detail {
+    margin: 20px 0;
+    text-align: center;
+}
+.grid-detail p:last-child {
+    transition: .5s;
+    margin-top: 10px;
+    
+}
+/* ---- colors hover of text card ---- 
+.grid-product:hover > .grid-detail p:last-child {
+    color: #ffffff;
+}
+  */
+  /*-------*/
+.grid-full {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.grid-product-full {
+    background: #f1f1f1;
+    grid-column: span 3;
+    display: flex;
+    position: relative;
+    border-radius: 8%;
+}
+/* --- colors hove card principal ---- 
+.grid-product-full:hover {
+    background: var(--azul-corporativo);
+}*/
+.grid-detail-sum {
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    text-align: center;
+}
+.grid-detail-sum h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.grid-detail-sum p {
+    margin: 20px 0;
+}
+.grid-detail-sum a {
+    color: #3498db;
+}
+.grid-detail-sum a:hover {
+    text-decoration: underline;
+}
+/* -------- iconos ------------*/
+.bx-cross{
+    padding: 2%;
+    font-size: 40px;
+}
+.bxs-hand{
+    font-size: 40px;
+}
+.bx-log-in-circle{
+    font-size: 40px;
+}
+.bxs-file{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro{
+    padding: 5%;
+    padding-bottom: 10%;
+    line-height: 5rem;
+}
+  
+  /*--- footer ---*/
+/* footer {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.circle {
+    width: 15px;
+    height: 15px;
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+.iconos{
+    width: 10px;
+    
+}
