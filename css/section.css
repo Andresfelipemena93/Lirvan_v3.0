@@ -26,21 +26,26 @@
 
 .section__content__title {
 	font-size: 4rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	margin-bottom: 0.2rem;
+	transform: translate(10px, -26px);
 }
 
 .section__content__subtitle {
 	font-size: 1.5rem;
-	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 19px;
+	transform: translate(10px, -48px);
 }
 .section__content__subtitle2{
 	padding-bottom: 5px;
 	padding-top: 10px;
 	font-size: 2em;
-	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	transform: translate(10px, -39px);
 }
 .section__content_img{
 	height: 120px;
@@ -71,9 +76,11 @@
 }
 .section__content__title4 {
 	font-size: 4rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	margin-bottom: 0.2rem;
+	transform: translate(10px, -43px);
+	
 }
 .section__content__subtitle a {
 	color: inherit;
@@ -156,7 +163,7 @@ background-size: cover;
 }
 /* Section 2 Home */
 .section-2{
-	background-image: url('../media/home/final-final.png');
+	background-image: url('../media/home/banner_footer.png');
 	height: 550px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -164,7 +171,7 @@ background-size: cover;
 }
 @media (min-width:768px){ 
 	.section-2{
-		background-image: url('../media/home/final-final.png');
+		background-image: url('../media/home/banner_footer.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
@@ -188,6 +195,7 @@ background-size: cover;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-align: center;
+	transform: translate(139px, -14px)
 
 }
 @media (min-width:768px){ 
@@ -208,6 +216,7 @@ footer{
 }
 .footer-links{
 	text-align: center;
+	
 
 }
 @media (min-width:768px){ 
@@ -220,17 +229,17 @@ footer{
 	}
 }
 .footer-links__logo{
-	width: 100px;
+	width: 133px;
 	height: auto;
 	margin-bottom: 20px;
-	transform: translate(-10px, 10px);
+	transform: translate(-18px, 6px)
 }
 .footer-links h3{
 	font-size: 20px;
 	margin-bottom: 15px;
 }
 .footer-links p{
-	font-size: 16px;
+	font-size: 11px;
 	margin-bottom: 15px;
 }
 .siguenos{
@@ -240,7 +249,7 @@ footer{
 	.siguenos{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 8rem;
+		/* gap: 8rem; */
 		text-align: initial;
 	}
 }
@@ -257,10 +266,26 @@ div.iconos-footer i{
 }
 .siguenos__numero{
 	font-weight: 700;
+	font-size: 14px !important;
+}
+.siguenos__numero_2{
+	font-weight: 700;
+	font-size: 16px !important;
+	text-align: center;
+	transform: translate(10px, 10px);
+}
+.following{
+	transform: translate(10px, 10px);
+}
+.horario{
+	transform: translate(363px, -13px)
+}
+.encabezado_legal {
+	transform: translate(10px, 16px)
 }
 .footer-copy{
 	display: flex;
 	justify-content: center;
-	font-size: 16px;
+	font-size: 11px;
 	padding: 50px 0;
 }

@@ -2,6 +2,7 @@
     text-align: center!important;
     
 }
+
 .list-inline-item {
     display: inline-block;
 }
@@ -70,11 +71,12 @@
     
 }
 .py-5{
-    margin-top: 40px;
+    margin-top: 1px;
     background-color: #f0f0f0;
     padding-bottom: 0.5rem !important;
     text-align: center;
     color: #fff;
+    height: 182px;
     
 
 }
@@ -146,7 +148,7 @@
 @media (min-width:768px){ 
 	.section-module{
         background-image: url('./media/img/Portada_polux.png');
-		height: 600px;
+		height: 800px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
@@ -164,7 +166,7 @@
 
 /* Section 2 Home */
 .section-card-led{
-	background-image: url('./media/img/banne_polux_3.png');
+	background-image: url('./media/img/banner_polux_8.png');
 	height: 550px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -313,7 +315,7 @@
 
 /*SECTION 4 MODULAR ESTRUCTURAL*/
 .section-modular{
-    background-image: url('./media/img/Mesadetrabajo7.png');
+    background-image: url('./media/img/banner_polux_8.png');
 	height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -352,7 +354,7 @@
 
 @media (min-width:768px){ 
 	.section-modular{
-        background-image: url('./media/img/Mesadetrabajo7.png');
+        background-image: url('./media/img/banner_polux_8.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */

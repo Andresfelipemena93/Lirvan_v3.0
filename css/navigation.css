@@ -69,6 +69,11 @@
 	display: block;
 }
 .text_sub {
+	font-size: 12px;
 	color: black;
 	font-weight: 500;
+	transform:translate(3px, -31px)
+}
+.menu_nav_ppn{
+	padding-top: 13px;
 }

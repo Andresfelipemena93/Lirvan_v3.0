@@ -29,8 +29,9 @@
 
 .header__logo {
 	margin-top: 8px;
-	height: 39px;
-	width: 92px;
+	height: 49px;
+	width: 133px;
+	transform: translate(10px, -10px)
 	
 }
 
