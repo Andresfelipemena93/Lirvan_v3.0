@@ -68,3 +68,7 @@
 .blur__overlay.is--active {
 	display: block;
 }
+.text_sub {
+	color: black;
+	font-weight: 500;
+}
