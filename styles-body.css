@@ -177,3 +177,53 @@
     width: 10px;
     
 }
+/* Estilos Slick */
+.slider{
+    margin: 0rem 1rem;
+}
+/* .slick-slide img{
+    display: inline!important;
+    width: 120px;
+} */
+@media (min-width:768px){ 
+    .slick-slide img{
+        width: 120px;
+        display: inline-block!important;
+    }
+
+}
+.slick-list{
+    margin-top: 30px!important;
+}
+@media (min-width:1024px){ 
+    .slick-list{
+        margin-top: 0px!important;
+    }
+}
+@media (min-width:1200px){ 
+    .slick-list{
+        margin-top: initial!important;
+        padding: 1rem 7rem!important;
+        
+    }
+}
+.slick-prev{
+    left: auto!important;
+    z-index: 2;
+}
+.slick-prev::before{
+    content: ''!important;
+}
+.slick-next{
+    right: 0px!important;
+    z-index: 2;
+}
+.slick-next::before{
+    content: ''!important;
+}
+
+.slick-next, .slick-prev{
+    top: 80%!important;
+    color: #aeb5be!important;
+    font-size: 30px!important;
+}
