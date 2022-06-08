@@ -178,13 +178,13 @@
     
 }
 /* Estilos Slick */
-.slider{
+/* .slider{
     margin: 0rem 1rem;
-}
-/* .slick-slide img{
+} */
+.slick-slide img{
     display: inline!important;
     width: 120px;
-} */
+}
 @media (min-width:768px){ 
     .slick-slide img{
         width: 120px;
@@ -215,7 +215,7 @@
     content: ''!important;
 }
 .slick-next{
-    right: 0px!important;
+    right: 20px!important;
     z-index: 2;
 }
 .slick-next::before{
