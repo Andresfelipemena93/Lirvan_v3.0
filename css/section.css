@@ -12,7 +12,20 @@
 	background-size: cover;
 	background-position: center;
 }
-
+@media (min-width:768px){ 
+	.section_1 {
+		background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
+		margin-top: 48px;
+		height: 705px;
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
+	}
+}
+.section.two {
+	background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
+}
 .section__content {
 	position: absolute;
 	top: 25%;

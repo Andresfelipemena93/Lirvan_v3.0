@@ -13,18 +13,28 @@
 	.section__action__container {
 		justify-content: space-evenly;
 	}
+	.footer-copy{
+		margin-left: 90px;
+	}
 }
 
 @media screen and (min-width: 900px) {
 	.section__action__container {
 		width: 70%;
 	}
-
+	.footer-copy{
+		margin-left: 90px;
+	}
 	.footer ul {
 		width: 70%;
 	}
 }
-
+@media (max-width: 768px) {
+	.footer-copy{
+		margin-left: 90px;
+	}
+	
+}
 @media screen and (min-width: 1200px) {
 	.header__nav__btn {
 		display: inline-block;
