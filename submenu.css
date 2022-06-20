@@ -57,11 +57,12 @@
 
 .section-module{
     background-image: url('/media/img/Portada_polux.png');
-	height: 650px;
+    height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-    /* padding: 100px; */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .text-section-module{
@@ -81,13 +82,11 @@
     width: 400px;
     
 }
-.text-section-module h1{
+.text-section-module h1 , span{
     font-size: 27px;
 }
 
-.text-section-module span{
-    font-size: 27px;
-}
+
 .text-section-module p{
     font-size: 15px;
 }
@@ -116,10 +115,12 @@
 /* Section 2 Home */
 .section-card-led{
 	background-image: url('/media/img/banne_polux_3.png');
-	height: 550px;
+	height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+    width: 840px;
+    margin: 0 auto;
 }
 .text-section-module-led{
     display: flex;
@@ -150,29 +151,29 @@
 
 
 @media (min-width:768px){ 
-	.section-card-led{
+  
+    .section-card-led{
         background-image: url('/media/img/banne_polux_3.png');
 		height: 600px;
+        
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
 		/* position: relative; */
-        width: auto;
 	}
-    
+
+    .text-section-module-led {
+        /* width: 100px; */
+        width: 100%;
+    }
 }
+
 @media (max-width:768px){ 
 	.section-card-led{
-        background-image: url('/media/img/banne_polux_3.png');
-		height: 600px;
-		background-repeat: no-repeat;
-		/* background-position: center right; */
-		background-size: cover;
-		/* position: relative; */
         width: auto;
 	}
-    
 }
+
 
 
 
@@ -186,6 +187,7 @@
    max-width: 830px;
    margin: 0 auto;
 }
+
 .module-cards2 img{
     width: 100%;
     height: 350px;
@@ -236,26 +238,21 @@
 }
 
 .text-module-cards1 span{
-    width: 300px;
+    width: 270px;
     
 }
-.text-module-cards1 h1{
+.text-module-cards1 h1 , span{
     font-size: 18px;
 }
-.text-module-cards1 span{
-    font-size: 18px;
-}
+
 .text-module-cards1  p{
     font-size: 12px;
 }
 .text-module-cards2 span{
-    width: 300px;
+    width: 270px;
 }
 
-.text-module-cards2 h1{
-    font-size: 18px;
-}
-.text-module-cards2 span{
+.text-module-cards2 h1, span{
     font-size: 18px;
 }
 .text-module-cards2  p{
@@ -266,6 +263,7 @@
 }
 
 @media (max-width:768px){ 
+
     .section-card-module{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -273,12 +271,17 @@
         max-width: 830px;
         margin: 0 auto;
      }
+
      .module-cards1{
          width: 94%;
+         margin: 0 auto;
      }
      .module-cards2{
         width: 94%;
+        margin: 0 auto;
+
     }
+  
 
      .module-cards1 img{
         /* margin: 0 130px; */
@@ -292,22 +295,17 @@
         height: 350px;
         
     }
-
-    .text-module-cards1 h1{
+ 
+    .text-module-cards1 h1, span{
+        width: 30%;
         font-size: 30px;
     }
-    .text-module-cards1 span{
-        font-size: 30px;
-    }
+  
     .text-module-cards1  p{
         font-size: 20px;
     }
     
-    
-    .text-module-cards2 h1{
-        font-size: 30px;
-    }
-    .text-module-cards2 span{
+    .text-module-cards2 h1 , span{
         font-size: 30px;
     }
     .text-module-cards2  p{
@@ -315,6 +313,21 @@
     }
   
     
+}
+@media (max-width:370px){ 
+    .section-card-module{ 
+        width:320px;
+        margin: 0 auto;
+	}
+    .module-cards1{
+        width:320px;
+    }
+    .module-cards2{
+        width:320px;
+    }
+    .text-module-cards2 span{
+        width: 250px;
+    }
 }
 
 
@@ -326,7 +339,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-    width: 879px;
+    width: 840px;
     margin: 0 auto;
 }
 
@@ -345,38 +358,64 @@
 
 .text-section-modular span{
     width: 400px;
-    
-}
-.text-section-modular h1{
     font-size: 27px;
 }
-
-.text-section-modular span{
+.text-section-modular h1{
     font-size: 27px;
 }
 .text-section-modular p{
     font-size: 15px;
 }
-@media (max-width:768px) {
-    .text-section-modular span, h1,p{
-        /* width: 100px; */
-        width: 100%
-    }
-}
+
+
 
 @media (min-width:768px){ 
 	.section-modular{
         background-image: url('/media/img/Mesadetrabajo7.png');
 		height: 600px;
+        
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
 		/* position: relative; */
 	}
+
+    .text-section-modular span {
+        /* width: 100px; */
+        width: 300px;
+    }
+  
+ 
 }
 
 @media (max-width:768px){ 
 	.section-modular{
         width: auto;
 	}
+    .text-section-modular span {
+        /* width: 100px; */
+        width: 190px;
+    }
 }
+/* 
+@media (max-width:370px){ 
+	.section-modular{
+        background-image: url('/media/img/.png');
+		height: 600px;
+        width: 100%;
+        
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+ 
+} */
+
+/* @media (max-width:400px){ 
+	.section-modular{
+        width: auto;
+	}
+    .text-section-modular span {
+       
+        width: 230px;
+    }
+} */

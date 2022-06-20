@@ -22,6 +22,7 @@
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--primary-color);
+	padding: 20px;
 }
 
 .section__content__title {
@@ -37,7 +38,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 19px;
-	transform: translate(10px, -48px);
+	transform: translate(10px, -8px);
 }
 .section__content__subtitle2{
 	padding-bottom: 5px;
@@ -195,7 +196,7 @@ background-size: cover;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-align: center;
-	transform: translate(139px, -14px)
+	/* transform: translate(139px, -14px) */
 
 }
 @media (min-width:768px){ 
