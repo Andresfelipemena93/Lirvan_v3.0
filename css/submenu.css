@@ -56,8 +56,13 @@
 /*  Section 1 Modulo Bateria*/
 
 .section-module{
+<<<<<<< HEAD:submenu.css
     background-image: url('/media/img/Portada_polux.png');
     height: 750px!important;
+=======
+    background-image: url('/media/polux/Portada_polux.png');
+	height: 650px;
+>>>>>>> 22c4e329fda739e15471fd8b29712d7f0879d6a8:css/submenu.css
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -93,7 +98,7 @@
 
 @media (min-width:768px){ 
 	.section-module{
-        background-image: url('/media/img/Portada_polux.png');
+        background-image: url('/media/polux/Portada_polux.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
@@ -107,15 +112,15 @@
    }
 }
 
-
-
-
-
-
 /* Section 2 Home */
 .section-card-led{
+<<<<<<< HEAD:submenu.css
 	background-image: url('/media/img/banne_polux_3.png');
 	height: 750px!important;
+=======
+	background-image: url('/media/polux/Banner_p_2.png');
+	height: 550px;
+>>>>>>> 22c4e329fda739e15471fd8b29712d7f0879d6a8:css/submenu.css
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -151,11 +156,19 @@
 
 
 @media (min-width:768px){ 
+<<<<<<< HEAD:submenu.css
   
     .section-card-led{
         background-image: url('/media/img/banne_polux_3.png');
 		height: 600px;
         
+=======
+	.section-card-led{
+        background-image: url('/media/polux/Banner_p_2.png');
+		height: 600px;
+        width: 1354px !important;
+        margin-left: 79px;
+>>>>>>> 22c4e329fda739e15471fd8b29712d7f0879d6a8:css/submenu.css
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
@@ -170,15 +183,27 @@
 
 @media (max-width:768px){ 
 	.section-card-led{
+<<<<<<< HEAD:submenu.css
+=======
+        background-image: url('/media/polux/Banner_p_3.png');
+		height: 600px;
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
+>>>>>>> 22c4e329fda739e15471fd8b29712d7f0879d6a8:css/submenu.css
         width: auto;
 	}
 }
 
+<<<<<<< HEAD:submenu.css
 
 
 
 
 
+=======
+>>>>>>> 22c4e329fda739e15471fd8b29712d7f0879d6a8:css/submenu.css
 .section-card-module{
    display: grid;
    grid-template-columns: repeat(2,1fr);
@@ -330,11 +355,9 @@
     }
 }
 
-
-
 /* /SECTION 4 MODULAR ESTRUCTURAL/ */
 .section-modular{
-    background-image: url('/media/img/Mesadetrabajo7.png');
+    background-image: url('/media/polux/Banner_p_3.png');
 	height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -371,7 +394,7 @@
 
 @media (min-width:768px){ 
 	.section-modular{
-        background-image: url('/media/img/Mesadetrabajo7.png');
+        background-image: url('/media/polux/Banner_p_3.png');
 		height: 600px;
         
 		background-repeat: no-repeat;
