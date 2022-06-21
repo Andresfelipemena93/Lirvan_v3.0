@@ -420,7 +420,9 @@
 } */
 
 /* Section Products */
+.section-products{
 
+}
 @media (min-width:768px){ 
     .column-products__card{
         display: grid;
@@ -470,8 +472,15 @@
 .column-carasteristicas__title{
     font-size: 15px;
     margin: 0!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3d3d3b;
+
 }
 .column-carasteristicas__num{
     font-size: 15px;
     margin: 0!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3d3d3b;
 }
