@@ -515,3 +515,74 @@
     height: 100%;
     width: 100%;
 }
+
+/* Opciones Configuracion */
+.opciones-configuracion{
+    background-image: url('../media/iconos_lirvan/bd.png');
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    padding: 7rem 0;
+}
+.opciones-configuracion__subtitle {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.opciones-configuracion__title {
+    color: #Fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+@media (min-width:768px){ 
+.opciones-configuracion__column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 7rem;
+}
+}
+@media (min-width:1200px){ 
+    .opciones-configuracion__column{
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+.modulo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+.modulo-card__imagen{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.modulo-card__title{
+    color: #fff;
+}
+.modulo-card__title{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px dotted white;
+    margin-bottom: 10px;
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+
+}
+.modulo-card__descripcion{
+    color: #Ffff;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
