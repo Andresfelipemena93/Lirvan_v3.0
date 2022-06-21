@@ -421,7 +421,10 @@
 
 /* Section Products */
 .section-products{
-
+    background-image: url('../media/iconos_lirvan/familia_polux/300ppi/fondo_polux_productos.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 @media (min-width:768px){ 
     .column-products__card{
@@ -432,7 +435,8 @@
 @media (min-width:1200px){ 
     .column-products__card{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5rem;
     }
 }
 .column-product__title{
@@ -441,6 +445,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
+}
+.column-product__title--blanco{
+    color: #fff;
 }
 .column-product__img{
     width: 150px;
@@ -458,6 +465,11 @@
     width: 50%;
     margin: 0 auto;
     margin-bottom: 1rem;
+}
+.column-product__link--blanco{
+    color: white;
+    border-bottom: 1px dotted white;
+
 }
 .column-carasteristicas{
     display: flex;
@@ -477,10 +489,29 @@
     color: #3d3d3b;
 
 }
+.column-carasteristicas__title--blanco{
+    color: white;
+    font-weight: 400;
+}
 .column-carasteristicas__num{
     font-size: 15px;
     margin: 0!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #3d3d3b;
+}
+.column-carasteristicas__num--blanco{
+    color: white;
+    font-weight: 400;
+}
+.column-product--blackground{
+    background-image: url('../media/iconos_lirvan/familia_polux/300ppi/polux-pro-final.png');
+    background-position: center left;
+    background-size: cover;
+    background-color: black;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    padding: 2rem 4rem;
+    height: 100%;
+    width: 100%;
 }
