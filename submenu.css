@@ -1,8 +1,3 @@
-.container{
-    max-width: 120rem;
-    width: 95%;
-    margin: 0 auto;
-}
 .text-center{
     text-align: center!important;
     
@@ -61,8 +56,8 @@
 /*  Section 1 Modulo Bateria*/
 
 .section-module{
-    background-image: url('/media/polux/Portada_polux.png');
-	height: 650px;
+    background-image: url('/media/img/Portada_polux.png');
+    height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -98,7 +93,7 @@
 
 @media (min-width:768px){ 
 	.section-module{
-        background-image: url('/media/polux/Portada_polux.png');
+        background-image: url('/media/img/Portada_polux.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
@@ -112,10 +107,15 @@
    }
 }
 
+
+
+
+
+
 /* Section 2 Home */
 .section-card-led{
-	background-image: url('/media/polux/Banner_p_2.png');
-	height: 550px;
+	background-image: url('/media/img/banne_polux_3.png');
+	height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -151,11 +151,11 @@
 
 
 @media (min-width:768px){ 
-	.section-card-led{
-        background-image: url('/media/polux/Banner_p_2.png');
+  
+    .section-card-led{
+        background-image: url('../media/img/banne_polux_3.png');
 		height: 600px;
-        width: 1354px !important;
-        margin-left: 79px;
+        
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
@@ -170,15 +170,14 @@
 
 @media (max-width:768px){ 
 	.section-card-led{
-        background-image: url('/media/polux/Banner_p_3.png');
-		height: 600px;
-		background-repeat: no-repeat;
-		/* background-position: center right; */
-		background-size: cover;
-		/* position: relative; */
         width: auto;
 	}
 }
+
+
+
+
+
 
 .section-card-module{
    display: grid;
@@ -331,9 +330,11 @@
     }
 }
 
+
+
 /* /SECTION 4 MODULAR ESTRUCTURAL/ */
 .section-modular{
-    background-image: url('/media/polux/Banner_p_3.png');
+    background-image: url('/media/img/Mesadetrabajo7.png');
 	height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -370,7 +371,7 @@
 
 @media (min-width:768px){ 
 	.section-modular{
-        background-image: url('/media/polux/Banner_p_3.png');
+        background-image: url('/media/img/Mesadetrabajo7.png');
 		height: 600px;
         
 		background-repeat: no-repeat;
@@ -418,100 +419,3 @@
         width: 230px;
     }
 } */
-
-/* Section Products */
-.section-products{
-    background-image: url('../media/iconos_lirvan/familia_polux/300ppi/fondo_polux_productos.png');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-@media (min-width:768px){ 
-    .column-products__card{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media (min-width:1200px){ 
-    .column-products__card{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 5rem;
-    }
-}
-.column-product__title{
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-.column-product__title--blanco{
-    color: #fff;
-}
-.column-product__img{
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-.column-product__link{
-    text-align: center;
-    display: block;
-    font-size: 12px;
-    border-bottom: 1px dotted black;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-}
-.column-product__link--blanco{
-    color: white;
-    border-bottom: 1px dotted white;
-
-}
-.column-carasteristicas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.column-carasteristicas__icon{
-    width: 50px;
-    height: 50px;
-}
-.column-carasteristicas__title{
-    font-size: 15px;
-    margin: 0!important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #3d3d3b;
-
-}
-.column-carasteristicas__title--blanco{
-    color: white;
-    font-weight: 400;
-}
-.column-carasteristicas__num{
-    font-size: 15px;
-    margin: 0!important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #3d3d3b;
-}
-.column-carasteristicas__num--blanco{
-    color: white;
-    font-weight: 400;
-}
-.column-product--blackground{
-    background-image: url('../media/iconos_lirvan/familia_polux/300ppi/polux-pro-final.png');
-    background-position: center left;
-    background-size: cover;
-    background-color: black;
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    padding: 2rem 4rem;
-    height: 100%;
-    width: 100%;
-}
