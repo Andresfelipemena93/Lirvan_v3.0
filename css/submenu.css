@@ -1,3 +1,8 @@
+.container{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
 .text-center{
     text-align: center!important;
     
@@ -57,7 +62,7 @@
 
 .section-module{
     background-image: url('/media/polux/Portada_polux.png');
-    height: 750px!important;
+	height: 650px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -110,7 +115,7 @@
 /* Section 2 Home */
 .section-card-led{
 	background-image: url('/media/polux/Banner_p_2.png');
-	height: 750px!important;
+	height: 550px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -146,11 +151,11 @@
 
 
 @media (min-width:768px){ 
-  
-    .section-card-led{
-        background-image: url('../media/polux/Banner_p_2.png');
+	.section-card-led{
+        background-image: url('/media/polux/Banner_p_2.png');
 		height: 600px;
-        
+        width: 1354px !important;
+        margin-left: 79px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
@@ -165,14 +170,15 @@
 
 @media (max-width:768px){ 
 	.section-card-led{
+        background-image: url('/media/polux/Banner_p_3.png');
+		height: 600px;
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
         width: auto;
 	}
 }
-
-
-
-
-
 
 .section-card-module{
    display: grid;
@@ -412,3 +418,60 @@
         width: 230px;
     }
 } */
+
+/* Section Products */
+
+@media (min-width:768px){ 
+    .column-products__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width:1200px){ 
+    .column-products__card{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+.column-product__title{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.column-product__img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.column-product__link{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    border-bottom: 1px dotted black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.column-carasteristicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column-carasteristicas__icon{
+    width: 50px;
+    height: 50px;
+}
+.column-carasteristicas__title{
+    font-size: 15px;
+    margin: 0!important;
+}
+.column-carasteristicas__num{
+    font-size: 15px;
+    margin: 0!important;
+}
