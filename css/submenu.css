@@ -425,6 +425,7 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 50px 0;
 }
 @media (min-width:768px){ 
     .column-products__card{
@@ -438,6 +439,21 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 5rem;
     }
+}
+.section-products__title{
+    font-size: 16px;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+color: #000;
+
+}
+.section-products__subtitle{
+    font-size: 26px;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+color: #000;
+font-weight: 800;
+
 }
 .column-product__title{
     text-align: center;
@@ -585,4 +601,54 @@
     text-align: center;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
+}
+
+/* Section 3 Polux Productos */
+
+.section-3{
+	background-image: url('../media/iconos_lirvan/portada_polux_productos.png');
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+@media (min-width:768px){ 
+	.section-3{
+		background-image: url('../media/iconos_lirvan/portada_polux_productos.png');
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+.section-3 .column{
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 100%;
+	width: 100%;
+	padding: 60px;
+}
+.section-3__title{
+	color:white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width:768px){ 
+	.section-3__title{
+		font-size: 20px;
+		margin-right: 150px;
+		text-align: start;
+	}
+}
+.section-3__subtitle{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
 }
