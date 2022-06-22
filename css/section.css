@@ -12,6 +12,78 @@
 	background-size: cover;
 	background-position: center;
 }
+/********** Section 1 Pagina Polux Products **********/
+.section_1 {
+	background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
+	margin-top: 48px;
+	height: 705px;
+	background-repeat: no-repeat;
+	/* background-position: center right; */
+	background-size: cover;
+	background-position: center center;
+	/* position: relative; */
+	padding: 50px 0;
+}
+.section_1__column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+@media (min-width:768px){ 
+	.section_1__column{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+		height: 100%;
+		width: 100%;
+		gap: 40px;
+		
+	}
+}
+.section_1__box-icon{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 20px;
+	
+}
+@media (min-width:768px){ 
+	.section_1__box-icon{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+}
+.section_1__icon{
+	width: 50px;
+	height: 50px;
+}
+.section_1__text{
+	font-size: 14px;
+	color: #ffff;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+@media (min-width:768px){ 
+	.section_1__text{
+		text-align: initial;
+	}
+
+}
+.section_1__span{
+	font-size: 15px;
+	color: #ffff;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+
+}
 @media (min-width:768px){ 
 	.section_1 {
 		background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
@@ -23,6 +95,8 @@
 		/* position: relative; */
 	}
 }
+/********** End Section 1 Pagina Polux Products **********/
+
 .section.two {
 	background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
 }
