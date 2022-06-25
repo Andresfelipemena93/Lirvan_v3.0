@@ -154,8 +154,8 @@
 	.section-card-led{
         background-image: url('/media/polux/Banner_p_2.png');
 		height: 600px;
-        width: 1354px !important;
-        margin-left: 79px;
+        width: 857px !important;
+        margin-left: 338px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
@@ -626,7 +626,7 @@ font-weight: 800;
 	justify-content: end;
 	height: 100%;
 	width: 100%;
-	padding: 60px;
+	padding: 84px;
 }
 .section-3__title{
 	color:white;

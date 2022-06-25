@@ -6,7 +6,9 @@
 	overflow-y: hidden;
 	max-height: 100vh;
 }
-
+.sub2_home {
+	position: relative;
+}
 .section {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -86,7 +88,7 @@
 }
 @media (min-width:768px){ 
 	.section_1 {
-		background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
+		background-image: url(../media/polux_productos/portada_polux.png);
 		margin-top: 48px;
 		height: 705px;
 		background-repeat: no-repeat;
@@ -98,7 +100,7 @@
 /********** End Section 1 Pagina Polux Products **********/
 
 .section.two {
-	background-image: url(../media/polux_productos/portada_polux_pag_pro.png);
+	background-image: url(../media/polux_productos/portada_polux.png);
 }
 .section__content {
 	position: absolute;
@@ -291,6 +293,7 @@ background-size: cover;
 		font-size: 30px;
 		margin-right: 150px;
 		text-align: start;
+		margin-bottom: 62px;
 	}
 }
 .section-2 .column h2 span{
