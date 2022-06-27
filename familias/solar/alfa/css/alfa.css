@@ -88,7 +88,7 @@
 }
 @media (min-width:768px){ 
 	.section_1 {
-		background-image: url(../media/ap_solar/polux/portada_polux.png);
+		background-image: url(/media/ap_solar/alfa/portada_alfa.png);
 		margin-top: 48px;
 		height: 705px;
 		background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 /********** End Section 1 Pagina Polux Products **********/
 
 .section.two {
-	background-image: url(../media/ap_solar/polux/portada_polux.png);
+	background-image: url(/media/ap_solar/alfa/portada_alfa.png);
 }
 .section__content {
 	position: absolute;

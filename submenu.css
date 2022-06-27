@@ -56,7 +56,7 @@
 /*  Section 1 Modulo Bateria*/
 
 .section-module{
-    background-image: url('/media/img/Portada_polux.png');
+    background-image: url('/media/ap_solar/polux/aterrizaje/Portada_polux.png');
     height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -93,7 +93,7 @@
 
 @media (min-width:768px){ 
 	.section-module{
-        background-image: url('/media/img/Portada_polux.png');
+        background-image: url('/media/ap_solar/polux/aterrizaje/Portada_polux.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
