@@ -1,0 +1,654 @@
+.container{
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center!important;
+    
+}
+.list-inline-item {
+    display: inline-block;
+}
+/*
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+*/
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    /* padding: 5px; */
+   
+    
+}
+.py-5{
+    margin-top: 40px;
+    background-color: #f0f0f0;
+    padding-bottom: 0.5rem !important;
+    text-align: center;
+    color: #fff;
+    
+
+}
+.infogra-1{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 11px;
+    /* margin: 10px; */
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.title-submenu{
+    color: rgb(36, 36, 36);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    
+}
+.icon1{
+    margin-left: 25px;
+    color: blue;
+}
+
+.fondo_body{
+    background-color: rgb(236, 236, 236);
+}
+
+/*  Section 1 Modulo Bateria*/
+
+.section-module{
+    background-image: url('/media/Kit_solar/productos/portada_onkit_aterrizaje.png');
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-section-module{
+    display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: end;
+	/* position: absolute; */
+	height: 100%;
+	width: 100%;
+    max-width: 850px;
+    color: black;
+    padding: 25px;
+}
+
+.text-section-module span{
+    width: 400px;
+    
+}
+.text-section-module h1 , span{
+    font-size: 27px;
+}
+
+
+.text-section-module p{
+    font-size: 15px;
+}
+
+@media (min-width:768px){ 
+	.section-module{
+        background-image: url('/media/Kit_solar/productos/portada_onkit_aterrizaje.png');
+		height: 600px;
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
+	}
+}
+@media (max-width:768px){ 
+   .text-section-module span , h1 , p{
+    width: 100%;
+   }
+}
+
+/* Section 2 Home */
+.section-card-led{
+	background-image: url('/media/Kit_solar/productos/prueba2.png');
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    width: 840px;
+    margin: 0 auto;
+}
+.text-section-module-led{
+    display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: end;
+	/* position: absolute; */
+	height: 100%;
+	width: 100%;
+    max-width: 820px;
+    color: white;
+    padding: 25px;
+}
+.text-section-module-led span{
+    width: 350px;
+    
+}
+.text-section-module-led h1{
+    font-size: 25px;
+}
+
+.text-section-module-led span{
+    font-size: 22px;
+}
+.text-section-module-led p{
+    font-size: 12px;
+}
+
+
+@media (min-width:768px){ 
+	.section-card-led{
+        background-image: url('/media/Kit_solar/productos/prueba2.png');
+		height: 600px;
+        width: 857px !important;
+        margin-left: 338px;
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
+	}
+
+    .text-section-module-led {
+        /* width: 100px; */
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){ 
+	.section-card-led{
+        background-image: url('/media/Kit_solar/productos/prueba.png');
+		height: 600px;
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
+        width: auto;
+	}
+}
+
+.section-card-module{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 25px;
+   width: 100%;
+   max-width: 830px;
+   margin: 0 auto;
+}
+
+.module-cards2 img{
+    width: 100%;
+    height: 350px;
+    
+   
+}
+.module-cards1 img{
+    width: 400px;
+    height: 350px;
+    
+}
+
+.module-cards1{
+ background-color: rgb(236, 236, 236);
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ border-radius: 15px;
+
+}
+.module-cards2{
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+
+
+.text-module-cards1{
+    display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: end;
+    max-width: 600px;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+.text-module-cards2{
+    display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: end;
+    max-width: 600px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+.text-module-cards1 span{
+    width: 270px;
+    
+}
+.text-module-cards1 h1 , span{
+    font-size: 18px;
+}
+
+.text-module-cards1  p{
+    font-size: 12px;
+}
+.text-module-cards2 span{
+    width: 270px;
+}
+
+.text-module-cards2 h1, span{
+    font-size: 18px;
+}
+.text-module-cards2  p{
+    font-size: 12px;
+}
+.text-module-cards2 span{
+    width: 300px;
+}
+
+@media (max-width:768px){ 
+
+    .section-card-module{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        max-width: 830px;
+        margin: 0 auto;
+     }
+
+     .module-cards1{
+         width: 94%;
+         margin: 0 auto;
+     }
+     .module-cards2{
+        width: 94%;
+        margin: 0 auto;
+
+    }
+  
+
+     .module-cards1 img{
+        /* margin: 0 130px; */
+        width: 100%;
+        height: 350px;
+        
+    }
+    .module-cards2 img{
+        /* margin: 0 130px; */
+        width: 100%;
+        height: 350px;
+        
+    }
+ 
+    .text-module-cards1 h1, span{
+        width: 30%;
+        font-size: 30px;
+    }
+  
+    .text-module-cards1  p{
+        font-size: 20px;
+    }
+    
+    .text-module-cards2 h1 , span{
+        font-size: 30px;
+    }
+    .text-module-cards2  p{
+        font-size: 20px;
+    }
+  
+    
+}
+@media (max-width:370px){ 
+    .section-card-module{ 
+        width:320px;
+        margin: 0 auto;
+	}
+    .module-cards1{
+        width:320px;
+    }
+    .module-cards2{
+        width:320px;
+    }
+    .text-module-cards2 span{
+        width: 250px;
+    }
+}
+
+/* /SECTION 4 MODULAR ESTRUCTURAL/ */
+.section-modular{
+    background-image: url('/media/Kit_solar/productos/prueba.png');
+	height: 750px!important;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.text-section-modular{
+    display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: end;
+	/* position: absolute; */
+	height: 100%;
+	width: 100%;
+    max-width: 820px;
+    color: white;
+    padding: 25px;
+}
+
+.text-section-modular span{
+    width: 400px;
+    font-size: 27px;
+}
+.text-section-modular h1{
+    font-size: 27px;
+}
+.text-section-modular p{
+    font-size: 15px;
+}
+
+
+
+@media (min-width:768px){ 
+	.section-modular{
+        background-image: url('/media/Kit_solar/productos/prueba.png');
+		height: 600px;
+        
+		background-repeat: no-repeat;
+		/* background-position: center right; */
+		background-size: cover;
+		/* position: relative; */
+	}
+
+    .text-section-modular span {
+        /* width: 100px; */
+        width: 300px;
+    }
+  
+ 
+}
+
+@media (max-width:768px){ 
+	.section-modular{
+        width: auto;
+	}
+    .text-section-modular span {
+        /* width: 100px; */
+        width: 190px;
+    }
+}
+/* 
+@media (max-width:370px){ 
+	.section-modular{
+        background-image: url('/media/img/.png');
+		height: 600px;
+        width: 100%;
+        
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+ 
+} */
+
+/* @media (max-width:400px){ 
+	.section-modular{
+        width: auto;
+	}
+    .text-section-modular span {
+       
+        width: 230px;
+    }
+} */
+
+/* Section Products */
+.section-products{
+    background-image: url('../media/ap_solar/polux/fondo_polux_productos.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+@media (min-width:768px){ 
+    .column-products__card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width:1200px){ 
+    .column-products__card{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5rem;
+    }
+}
+.section-products__title{
+    font-size: 16px;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+color: #000;
+
+}
+.section-products__subtitle{
+    font-size: 26px;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+color: #000;
+font-weight: 800;
+
+}
+.column-product__title{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.column-product__title--blanco{
+    color: #fff;
+}
+.column-product__img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.column-product__link{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    border-bottom: 1px dotted black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.column-product__link--blanco{
+    color: white;
+    border-bottom: 1px dotted white;
+
+}
+.column-carasteristicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column-carasteristicas__icon{
+    width: 50px;
+    height: 50px;
+}
+.column-carasteristicas__title{
+    font-size: 15px;
+    margin: 0!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3d3d3b;
+
+}
+.column-carasteristicas__title--blanco{
+    color: white;
+    font-weight: 400;
+}
+.column-carasteristicas__num{
+    font-size: 15px;
+    margin: 0!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #3d3d3b;
+}
+.column-carasteristicas__num--blanco{
+    color: white;
+    font-weight: 400;
+}
+.column-product--blackground{
+    background-image: url('../media/ap_solar/polux/productos/polux-pro-final.png');
+    background-position: center left;
+    background-size: cover;
+    background-color: black;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    padding: 2rem 4rem;
+    height: 100%;
+    width: 100%;
+}
+
+/* Opciones Configuracion */
+.opciones-configuracion{
+    background-image: url('../media/ap_solar/polux/bd.png');
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    padding: 7rem 0;
+}
+.opciones-configuracion__subtitle {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.opciones-configuracion__title {
+    color: #Fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+@media (min-width:768px){ 
+.opciones-configuracion__column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 7rem;
+}
+}
+@media (min-width:1200px){ 
+    .opciones-configuracion__column{
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+.modulo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+.modulo-card__imagen{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.modulo-card__title{
+    color: #fff;
+}
+.modulo-card__title{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px dotted white;
+    margin-bottom: 10px;
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+
+}
+.modulo-card__descripcion{
+    color: #Ffff;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Section 3 Polux Productos */
+
+.section-3{
+	background-image: url('../media/ap_solar/polux/portada_polux_productos.png');
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+@media (min-width:768px){ 
+	.section-3{
+		background-image: url('../media/ap_solar/polux/portada_polux_productos.png');
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+.section-3 .column{
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 100%;
+	width: 100%;
+	padding: 84px;
+}
+.section-3__title{
+	color:white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width:768px){ 
+	.section-3__title{
+		font-size: 20px;
+		margin-right: 150px;
+		text-align: start;
+	}
+}
+.section-3__subtitle{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
+}

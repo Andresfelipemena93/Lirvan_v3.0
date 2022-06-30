@@ -16,7 +16,7 @@
 }
 /********** Section 1 Pagina Polux Products **********/
 .section_1 {
-	background-image: url(/media/ap_solar/titan/MENU_TITAN_BANNER.png);
+	background-image: url(/media/il_industrial/sirius-basica/MENU_AI-SIRIUS-BASICA_BANNER.png);
 	margin-top: 48px;
 	height: 705px;
 	background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 }
 @media (min-width:768px){ 
 	.section_1 {
-		background-image: url(/media/ap_solar/titan/MENU_TITAN_BANNER.png);;
+		background-image: url(/media/il_industrial/sirius-basica/MENU_AI-SIRIUS-BASICA_BANNER.png);
 		margin-top: 48px;
 		height: 705px;
 		background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 /********** End Section 1 Pagina Polux Products **********/
 
 .section.two {
-	background-image: url(/media/ap_solar/titan/MENU_TITAN_BANNER.png);
+	background-image: url(/media/il_industrial/sirius-basica/MENU_AI-SIRIUS-BASICA_BANNER.png);
 }
 .section__content {
 	position: absolute;
@@ -253,7 +253,7 @@ background-size: cover;
 }
 /* Section 2 Home */
 .section-2{
-	background-image: url('../media/home/banner_footer.png');
+	background-image: url(/media/il_industrial/sirius-basica/MENU_AI-SIRIUS-BASICA_BANNER.png);
 	height: 550px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -261,7 +261,7 @@ background-size: cover;
 }
 @media (min-width:768px){ 
 	.section-2{
-		background-image: url('../media/home/banner_footer.png');
+		background-image: url(/media/il_industrial/sirius-basica/MENU_AI-SIRIUS-BASICA_BANNER.png);
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
