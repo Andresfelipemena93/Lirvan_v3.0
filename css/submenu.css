@@ -491,6 +491,7 @@ font-weight: 800;
 }
 
 .column-product__link{
+    color: #000 !important;
     text-align: center;
     display: block;
     font-size: 12px;

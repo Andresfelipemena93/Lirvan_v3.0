@@ -382,6 +382,7 @@
     .text-section-modular span {
         /* width: 100px; */
         width: 300px;
+        margin-left: 25px;
     }
   
  
