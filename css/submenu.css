@@ -10,7 +10,9 @@
 .list-inline-item {
     display: inline-block;
 }
-
+.slick-prev{
+    margin-left: 20px !important;
+}
 /*
 .li {
     display: list-item;
