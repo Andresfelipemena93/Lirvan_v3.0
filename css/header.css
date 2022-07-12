@@ -13,12 +13,12 @@
 .header__middle {
 	display: flex;
 	align-items: center;
-	
+	margin-right: 94px;
 }
 .header__middle  a{
 	color: black;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .header__left {
@@ -31,7 +31,7 @@
 	margin-top: 8px;
 	height: 49px;
 	width: 133px;
-	transform: translate(10px, -10px)
+	transform: translate(-21px, -10px)
 	
 }
 

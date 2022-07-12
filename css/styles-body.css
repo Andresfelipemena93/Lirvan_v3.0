@@ -197,6 +197,7 @@
 .slick-prev{
     left: auto!important;
     z-index: 2;
+    margin-left: 17px !important;
 }
 .slick-prev::before{
     content: ''!important;

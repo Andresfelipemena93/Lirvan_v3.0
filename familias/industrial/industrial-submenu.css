@@ -61,11 +61,11 @@
 /*  Section 1 Modulo Bateria*/
 
 .section-module{
-    background-image: url('/media/Kit_solar/productos/portada_onkit_aterrizaje.png');
+    background-image: url('/media/il_industrial/aterrizaje/portada_aterrizaje.png');
 	height: 650px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
+	background-size: 100% 100%;
     width: 100%;
     margin: 0 auto;
 }
@@ -98,11 +98,13 @@
 
 @media (min-width:768px){ 
 	.section-module{
-        background-image: url('/media/Kit_solar/productos/portada_onkit_aterrizaje.png');
+        background-image: url('/media/il_industrial/aterrizaje/portada_aterrizaje.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
-		background-size: cover;
+		background-size: 100% 100%;
+        width: 100%;
+        margin: 0 auto;
 		/* position: relative; */
 	}
 }
