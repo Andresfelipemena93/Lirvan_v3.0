@@ -1,19 +1,22 @@
 .header {
 	height: 5rem;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 5;
-	display: flex;
-	justify-content: space-between;
-	background-color: #ffff;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    background-color: #ffff;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .header__middle {
 	display: flex;
 	align-items: center;
-	margin-right: 94px;
+	margin-top: 14px;
 }
 .header__middle  a{
 	color: black;
@@ -28,7 +31,7 @@
 }
 
 .header__logo {
-	margin-top: 8px;
+	margin-top: 19px;
 	height: 49px;
 	width: 133px;
 	transform: translate(-21px, -10px)

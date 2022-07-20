@@ -27,7 +27,7 @@
     
 }
 .py-5{
-    margin-top: 40px;
+    margin-top: 13px;
     background-color: #f0f0f0;
     padding-bottom: 0.5rem !important;
     text-align: center;
@@ -155,14 +155,11 @@
 
 @media (min-width:768px){ 
 	.section-card-led{
-        background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_2.png');
+        background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_1.png');
 		height: 600px;
-        width: 857px !important;
-        margin-left: 338px;
+        width: 828px !important;  
 		background-repeat: no-repeat;
-		/* background-position: center right; */
 		background-size: cover;
-		/* position: relative; */
 	}
 
     .text-section-module-led {
@@ -369,8 +366,6 @@
     font-size: 15px;
 }
 
-
-
 @media (min-width:768px){ 
 	.section-modular{
         background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_3.png');
@@ -380,14 +375,12 @@
 		/* background-position: center right; */
 		background-size: cover;
 		/* position: relative; */
+        width: 885px !important;
 	}
-
     .text-section-modular span {
         /* width: 100px; */
         width: 300px;
     }
-  
- 
 }
 
 @media (max-width:768px){ 

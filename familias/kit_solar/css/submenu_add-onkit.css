@@ -61,11 +61,11 @@
 /*  Section 1 Modulo Bateria*/
 
 .section-module{
-    background-image: url('/media/Kit_solar/productos/portada_onkit_aterrizaje.png');
+    background-image: url('/media//ap_vial/JPG_ATERRIZAJE/V0.png');
 	height: 650px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
+	background-size: 100% 100%;
     width: 100%;
     margin: 0 auto;
 }
@@ -98,11 +98,13 @@
 
 @media (min-width:768px){ 
 	.section-module{
-        background-image: url('/media/Kit_solar/productos/portada_onkit_aterrizaje.png');
+        background-image: url('/media//ap_vial/JPG_ATERRIZAJE/V0.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
-		background-size: cover;
+		background-size: 100% 100%;
+        width: 100%;
+        margin: 0 auto;
 		/* position: relative; */
 	}
 }
@@ -154,12 +156,13 @@
 	.section-card-led{
         background-image: url('/media/Kit_solar/productos/prueba2.png');
 		height: 600px;
-        width: 857px !important;
-        margin-left: 338px;
+        /* width: 857px !important; */
+        /* margin-left: 338px; */
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
 		/* position: relative; */
+        /* arreglo medidas de la imagen */
 	}
 
     .text-section-module-led {
@@ -377,12 +380,13 @@
 		/* background-position: center right; */
 		background-size: cover;
 		/* position: relative; */
+         width: 875px !important; 
+         /* arreglo medidas de la imagen */
 	}
 
     .text-section-modular span {
         /* width: 100px; */
         width: 300px;
-        margin-left: 25px;
     }
   
  
@@ -652,4 +656,7 @@ font-weight: 800;
     font-family: 'Roboto', sans-serif;
     width: 100%;
 
+}
+.containerdom{
+    padding: 50px 0 !important;
 }

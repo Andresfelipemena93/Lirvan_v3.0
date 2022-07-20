@@ -16,7 +16,7 @@
 }
 /********** Section 1 Pagina Polux Products **********/
 .section_1 {
-	background-image: url(/media/Kit_solar/MENU-ADD-ON-KIT_banner.png);
+	background-image: url(../media/ap_solar/polux/portada_polux.png);
 	margin-top: 48px;
 	height: 705px;
 	background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 }
 @media (min-width:768px){ 
 	.section_1 {
-		background-image: url(/media/Kit_solar/MENU-ADD-ON-KIT_banner.png);
+		background-image: url(../media/ap_solar/polux/portada_polux.png);
 		margin-top: 48px;
 		height: 705px;
 		background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 /********** End Section 1 Pagina Polux Products **********/
 
 .section.two {
-	background-image: url(/media/Kit_solar/MENU-ADD-ON-KIT_banner.png);
+	background-image: url(../media/ap_solar/polux/portada_polux.png);
 }
 .section__content {
 	position: absolute;
@@ -317,6 +317,7 @@ footer{
 		align-items: center;
 		gap: 4rem;
 		text-align: initial;
+		padding: 0 20px;
 	}
 }
 .footer-links__logo{
@@ -333,22 +334,42 @@ footer{
 	font-size: 11px;
 	margin-bottom: 15px;
 }
+.footer-links .following{
+	font-size: 20px!important;
+	margin: 30px 0;
+}
+@media (min-width:768px){ 
+	.footer-links .following{
+		font-size: 12px!important;
+		margin: 0px;
+	}
+}
 .siguenos{
 	text-align: center;
+	margin-top: 2rem;
 }
 @media (min-width:768px){ 
 	.siguenos{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		/* gap: 8rem; */
+		gap: 3rem;
 		text-align: initial;
+		align-items: center;
 	}
 }
-
+@media (min-width:1100px){ 
+	.siguenos{
+		gap: 5rem;
+	}
+}
+div.iconos-footer{
+	margin-bottom: 20px;
+}
 @media (min-width:768px){ 
 	div.iconos-footer{
 		display: flex;
 		align-items: center;
+		margin-bottom: 0px;
 	}
 }
 div.iconos-footer i{
@@ -363,17 +384,17 @@ div.iconos-footer i{
 	font-weight: 700;
 	font-size: 16px !important;
 	text-align: center;
-	transform: translate(10px, 10px);
+	/* transform: translate(10px, 10px); */
 }
-.following{
+/* .following{
 	transform: translate(10px, 10px);
-}
-.horario{
+} */
+/* .horario{
 	transform: translate(363px, -13px)
 }
 .encabezado_legal {
 	transform: translate(10px, 16px)
-}
+} */
 .footer-copy{
 	display: flex;
 	justify-content: center;

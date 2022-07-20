@@ -154,11 +154,11 @@
 	.section-card-led{
         background-image: url('/media/ap_vial/JPG_ATERRIZAJE/V1.png');
 		height: 600px;
-        width: 857px !important;
-        margin-left: 338px;
+        width: 840px !important;
+        /* margin-left: 338px; */
 		background-repeat: no-repeat;
 		/* background-position: center right; */
-		background-size: cover;
+		background-size: 100% 100%;
 		/* position: relative; */
 	}
 
@@ -651,4 +651,7 @@ font-weight: 800;
     font-family: 'Roboto', sans-serif;
     width: 100%;
 
+}
+.containerdom{
+    padding: 50px 0 !important;
 }
