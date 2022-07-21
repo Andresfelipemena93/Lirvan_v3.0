@@ -16,7 +16,7 @@
 .header__middle {
 	display: flex;
 	align-items: center;
-	margin-top: 14px;
+	/* margin-top: 14px; */
 }
 .header__middle  a{
 	color: black;
@@ -50,7 +50,7 @@
 .header__nav__btn {
 	display: none;
 	font-size: 1.2rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'roboto', sans-serif;
 	font-weight: 500;
 	padding: 1rem;
 	color: var(--white);

@@ -10,6 +10,9 @@
 .list-inline-item {
     display: inline-block;
 }
+.slick-prev{
+    margin-left: 20px !important;
+}
 /*
 .li {
     display: list-item;
@@ -24,7 +27,7 @@
     
 }
 .py-5{
-    margin-top: 40px;
+    margin-top: 13px;
     background-color: #f0f0f0;
     padding-bottom: 0.5rem !important;
     text-align: center;
@@ -46,7 +49,7 @@
     color: rgb(36, 36, 36);
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: 'Lato', sans-serif;
+    font-family: 'roboto', sans-serif;
     
 }
 .icon1{
@@ -61,7 +64,7 @@
 /*  Section 1 Modulo Bateria*/
 
 .section-module{
-    background-image: url('/media/ap_vial/JPG_ATERRIZAJE/portada_aterrizaje_vial.png');
+    background-image: url('/media/ap_solar/polux/aterrizaje/Portada_polux.png');
 	height: 650px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -78,7 +81,7 @@
 	/* position: absolute; */
 	height: 100%;
 	width: 100%;
-    max-width: 850px !important;
+    max-width: 850px;
     color: black;
     padding: 25px;
 }
@@ -98,7 +101,7 @@
 
 @media (min-width:768px){ 
 	.section-module{
-        background-image: url('/media/ap_vial/JPG_ATERRIZAJE/hhhhh.png');
+        background-image: url('/media/ap_solar/polux/aterrizaje/Portada_polux.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
@@ -114,7 +117,7 @@
 
 /* Section 2 Home */
 .section-card-led{
-	background-image: url('/media/ap_vial/JPG_ATERRIZAJE/V0.png');
+	background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_2.png');
 	height: 550px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -152,14 +155,11 @@
 
 @media (min-width:768px){ 
 	.section-card-led{
-        background-image: url('/media/ap_vial/JPG_ATERRIZAJE/V1.png');
+        background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_1.png');
 		height: 600px;
-        width: 840px !important;
-        /* margin-left: 338px; */
+        width: 828px !important;  
 		background-repeat: no-repeat;
-		/* background-position: center right; */
-		background-size: 100% 100%;
-		/* position: relative; */
+		background-size: cover;
 	}
 
     .text-section-module-led {
@@ -170,7 +170,7 @@
 
 @media (max-width:768px){ 
 	.section-card-led{
-        background-image: url('/media/ap_vial/JPG_ATERRIZAJE/V1.png');
+        background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_3.png');
 		height: 600px;
 		background-repeat: no-repeat;
 		/* background-position: center right; */
@@ -333,7 +333,7 @@
 
 /* /SECTION 4 MODULAR ESTRUCTURAL/ */
 .section-modular{
-    background-image: url('/media/Kit_solar/productos/prueba.png');
+    background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_3.png');
 	height: 750px!important;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -366,25 +366,21 @@
     font-size: 15px;
 }
 
-
-
 @media (min-width:768px){ 
 	.section-modular{
-        /* background-image: url('/media/ap_vial/JPG_ATERRIZAJE/V3.png'); */
+        background-image: url('/media/ap_solar/polux/aterrizaje/Banner_p_3.png');
 		height: 600px;
         
 		background-repeat: no-repeat;
 		/* background-position: center right; */
 		background-size: cover;
 		/* position: relative; */
+        width: 885px !important;
 	}
-
     .text-section-modular span {
         /* width: 100px; */
         width: 300px;
     }
-  
- 
 }
 
 @media (max-width:768px){ 
@@ -427,10 +423,26 @@
     background-repeat: no-repeat;
     padding: 50px 0;
 }
+.column-product{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 90%;
+    margin-bottom: 4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 0;
+}
 @media (min-width:768px){ 
     .column-products__card{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+    .column-product{
+        background-color: transparent;
+        box-shadow: none;
     }
 }
 @media (min-width:1200px){ 
@@ -474,6 +486,7 @@ font-weight: 800;
 }
 
 .column-product__link{
+    color: #000 !important;
     text-align: center;
     display: block;
     font-size: 12px;
@@ -651,7 +664,4 @@ font-weight: 800;
     font-family: 'Roboto', sans-serif;
     width: 100%;
 
-}
-.containerdom{
-    padding: 50px 0 !important;
 }
